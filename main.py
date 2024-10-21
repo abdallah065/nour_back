@@ -18,8 +18,8 @@ app.add_middleware(
 )
 
 # Define the path for the JSON files
-DATA_FILE_PATH = "form_data.json"
-CONTACT_FILE_PATH = "contact_form_data.json"
+DATA_FILE_PATH = "data/form_data.json"
+CONTACT_FILE_PATH = "data/contact_form_data.json"
 
 @app.get("/")
 async def read_root():
