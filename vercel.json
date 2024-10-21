@@ -8,6 +8,12 @@
   "routes": [
     {
       "src": "/(.*)",
+      "methods": [
+        "POST",
+        "GET",
+        "PUT",
+        "OPTIONS"
+      ],
       "dest": "main.py"
     }
   ]
